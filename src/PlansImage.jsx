@@ -12,7 +12,7 @@ export default function PlansImage() {
             <img className="download-icon"src={appstore} alt="" />
             <img className="download-icon"src={googleplay} alt="" />
             </div>
-        <img className="marketing-image"src={plans} alt="" />
+         <img id="iphone-image-plan"className="marketing-image"src={plans} alt="" />
         </div>
     )
 }
