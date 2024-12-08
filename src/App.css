@@ -344,7 +344,11 @@ h4 {
 .testimonials p:nth-of-type(3){
   background-color: #b8e7f7;
 }
-
+.person-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 
 
 
@@ -658,3 +662,6 @@ body {
   align-items:center;
 }
 }
+
+
+
