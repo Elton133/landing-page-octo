@@ -642,12 +642,7 @@ body {
   font-size: 22px;
   margin: 0;
 }
-.content-image {
-  width: 350px;
-  height: 350px;
-  padding: 0;
-  border-radius: 28px;
-}
+
 .content-description {
   font-size: 14px;
   height: 40px;
