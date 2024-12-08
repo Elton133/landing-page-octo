@@ -7,27 +7,32 @@ import Testimonials from './Testimonials'
 import Plans from './Plans'
 import BottomNav from './BottomNav'
 import Copyrights from './Copyrights'
+import students from './assets/students.jpg'
+import vr from './assets/vr.jpg'
 function App() {
 
 
   return (
-  <>
+  <div>
     <Navbar/>
     <Banner/>
     <h3  className="heading">Different destinations</h3>
     <div className='content-wrapper'>
     <Content
     description="We explore how this technology is transforming work across industries and fields."
+    images={vr}
     personas="Students"
     personaDescription="AI Ally can assist in research, provide learning materials, and answer questions"
     />
     <Content
     description="Discover how AI can streamline processes and elevate your work to new heights"
+    images={vr}
     personas="Professionals"
     personaDescription="AI Ally can provide quick access to relevant information and offer data analysis insights"
     />
     <Content
     description="AI ALLY"
+    images={vr}
     personas="Writers"
     personaDescription="AI Ally can help writers by generating ideas, suggesting improvements in writing style"
     />
@@ -42,7 +47,7 @@ function App() {
     <Copyrights/>
     
     
-  </>
+  </div>
   )
 }
 
