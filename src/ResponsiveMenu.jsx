@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import './App.css'
 export default function ResponsiveMenu({ open }) {
     return (
         <AnimatePresence>
@@ -12,12 +12,13 @@ export default function ResponsiveMenu({ open }) {
                     transition={{ duration: 0.3 }}
                     className="absolute top-20 left-0 w-full h-screen z-20"
                 >
-                    <div className='text-xl font-semibold bg-black text-white py-10 m-6 rounded-3xl'>
-                        <ul className="flex flex-col justify-center items-center gap-10">
+                    <div className='text-xl font-semibold  backdrop-blur-xl text-white py-10 m-6 rounded-3xl'>
+                        <ul className="flex flex-col justify-center items-center gap-5">
                             <li>Home</li>
                             <li>Features</li>
                             <li>Pricing</li>
                             <li>Testimonials</li>
+                            <li><a className="sign-in-button"href="#">Sign in</a></li>
                         </ul>
                     </div>
                 </motion.div>

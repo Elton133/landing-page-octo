@@ -21,13 +21,13 @@ export default function Navbar() {
 
         <>
         <nav className=' navbar mx-7'>
-          <div className='container flex justify-between items-center py-4'>
-            <div className='flex items-center'>
+          <div className='container flex justify-between items-center py-1'>
+            <div className=''>
                 <a className="logo" href="#"><img src={ai} alt="" />AI ALLY</a>
             </div>
 
             <div className='hidden md:block'>
-                <ul className='nav-links flex items-center gap-6'>
+                <ul className='nav-links flex items-center'>
                     {NavbarMenu.map((item) => {
                         return (
                             <li className="nav-item"key={item.id}>
@@ -37,11 +37,11 @@ export default function Navbar() {
                     })}
                 </ul>
             </div>
-            <div className=''>
+            <div className='py-6'>
                <a className="sign-in-button"href="#">Sign in</a>
             </div>
             <div className='md:hidden' onClick={()=> setOpen (!open)}>
-                <MdMenu className='text-4xl'/>
+                <MdMenu className='text-3xl'/>
             </div>
             </div>
         </nav>
