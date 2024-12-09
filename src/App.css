@@ -342,7 +342,7 @@ h4 {
 }
 .marketing-item {
   width: 100%;
-  padding: 10px;
+  padding: 14px;
   border-radius: 20px;
   margin: 0.5em 0;
   background-color: white;
@@ -554,6 +554,7 @@ h4 {
     align-items: center;
     text-align: center;
     padding: 1em;
+    gap: 1.2em;
   }
 
   .testimonials p {
