@@ -20,31 +20,36 @@ export default function Navbar() {
         // </nav>
 
         <>
-        <nav className=' navbar mx-7'>
-          <div className='container flex justify-between items-center py-1'>
-            <div className=''>
-                <a className="logo" href="#"><img src={ai} alt="" />AI ALLY</a>
-            </div>
+       <nav className='navbar'>
+  <div className='container flex justify-around items-center py-1'>
+    <div>
+      <a className="logo flex items-center gap-2" href="#">
+        <img src={ai} alt="Logo" className="w-8 h-8" />
+        <span>AI ALLY</span>
+      </a>
+    </div>
 
-            <div className='hidden md:block'>
-                <ul className='nav-links flex items-center'>
-                    {NavbarMenu.map((item) => {
-                        return (
-                            <li className="nav-item"key={item.id}>
-                                <a href={item.link} className='inline-block py-1 px-3'>{item.title}</a>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </div>
-            <div className='py-6'>
-               <a className="sign-in-button"href="#">Sign in</a>
-            </div>
-            <div className='md:hidden' onClick={()=> setOpen (!open)}>
-                <MdMenu className='text-3xl'/>
-            </div>
-            </div>
-        </nav>
+    <div className='hidden md:block'>
+      <ul className='nav-links flex items-center'>
+        {NavbarMenu.map((item) => (
+          <li className="nav-item" key={item.id}>
+            <a href={item.link} className='inline-block py-1 '>
+              {item.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div className='py-6'>
+      <a className="sign-in-button" href="#">Sign in</a>
+    </div>
+    
+    <div className='md:hidden' onClick={() => setOpen(!open)}>
+      <MdMenu className='text-3xl' />
+    </div>
+  </div>
+</nav>
+
         <ResponsiveMenu open={open}/>
         </>
     )
