@@ -12,7 +12,7 @@ export default function ResponsiveMenu({ open }) {
                     transition={{ duration: 0.3 }}
                     className="absolute top-20 left-0 w-full h-screen z-20 backdrop-blur-lg"
                 >
-                    <div id="responsive-menu"className='text-xl font-semibold  backdrop-blur-lg text-white py-20 m-6 rounded-3xl border-gray-500 border-2'>
+                    <div id="responsive-menu"className='text-xl font-semibold  backdrop-blur-xl text-white py-20 m-6 rounded-3xl border-gray-500 border-2'>
                         <ul className="flex flex-col justify-center items-center gap-5">
                             <li>Home</li>
                             <li>Features</li>
