@@ -10,9 +10,9 @@ export default function ResponsiveMenu({ open }) {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y:-100 }}
                     transition={{ duration: 0.3 }}
-                    className="absolute top-20 left-0 w-full h-screen bg-black/20 z-20 backdrop-blur-lg"
+                    className="absolute top-20 left-0 w-full h-screen z-20 backdrop-blur-lg"
                 >
-                    <div className='text-xl font-semibold  backdrop-blur-lg text-white py-20 m-6 rounded-3xl border-gray-500 border-2'>
+                    <div id="responsive-menu"className='text-xl font-semibold  backdrop-blur-lg text-white py-20 m-6 rounded-3xl border-gray-500 border-2'>
                         <ul className="flex flex-col justify-center items-center gap-5">
                             <li>Home</li>
                             <li>Features</li>
