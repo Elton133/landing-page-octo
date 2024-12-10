@@ -342,7 +342,7 @@ h4 {
 }
 .marketing-item {
   width: 100%;
-  padding: 14px;
+  padding: 10.5px;
   border-radius: 20px;
   margin: 0.5em 0;
   background-color: white;
@@ -676,7 +676,7 @@ h4 {
   margin: 0.4em;
 }
 .download-icon {
-  width: 160px;
+  width: 170px;
   height: 60px;
   margin: 0.8em 0 0 0;
   display: inline-block;
@@ -752,4 +752,6 @@ hr {
 }
 
 #responsive-menu {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 45px;
 }

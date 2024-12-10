@@ -1,5 +1,4 @@
 import './App.css'
-import ai from './assets/ai3.png'
 import image from './assets/BannerImage.png'
 export default function Banner(props) {
     return (

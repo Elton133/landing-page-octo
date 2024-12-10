@@ -9,6 +9,8 @@ import BottomNav from './BottomNav'
 import Copyrights from './Copyrights'
 import students from './assets/students.jpg'
 import vr from './assets/vr.jpg'
+import tech from './assets/tech1.jpg'
+import tech2 from './assets/tech2.jpg'
 function App() {
 
 
@@ -26,13 +28,13 @@ function App() {
     />
     <Content
     description="Discover how AI can streamline processes and elevate your work to new heights"
-    images={vr}
+    images={tech}
     personas="Professionals"
     personaDescription="AI Ally can provide quick access to relevant information and offer data analysis insights"
     />
     <Content
     description="AI ALLY"
-    images={vr}
+    images={tech2}
     personas="Writers"
     personaDescription="AI Ally can help writers by generating ideas, suggesting improvements in writing style"
     />
