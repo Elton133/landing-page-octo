@@ -262,6 +262,9 @@ h4 {
   font-size: 14px;
   margin-top: 10px;
 }
+.personas {
+  font-weight: 600;
+}
 .heading {
   font-size: 33px;
   margin: 1.5em 0 0.5em 4em;
