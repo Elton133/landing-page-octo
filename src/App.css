@@ -170,8 +170,8 @@ body {
 
 .banner-image img {
   width: 440px;
-  height: 556px;
-  padding-top: 35px;
+  height: 590px;
+  padding-top: 45px;
 }
 @media (max-width: 768px) {
   .banner {
@@ -267,7 +267,7 @@ h4 {
 }
 .heading {
   font-size: 33px;
-  margin: 1.5em 0 0.5em 4em;
+  margin: 1.5em 0 0.5em 3.5em;
 }
 
 .destination-button {
@@ -337,7 +337,8 @@ h4 {
 }
 .marketing-image {
   width: 290px;
-  height: 450px;
+  height: 489px;
+  padding-top: 40px;
 }
 .marketing-text {
   width: 21%;
