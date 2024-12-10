@@ -11,6 +11,7 @@ import students from './assets/students.jpg'
 import vr from './assets/vr.jpg'
 import tech from './assets/tech1.jpg'
 import tech2 from './assets/tech2.jpg'
+import Pricing from './Pricing'
 function App() {
 
 

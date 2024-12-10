@@ -760,3 +760,82 @@ hr {
   border: 1px solid rgb(82, 82, 82);
   padding: 45px;
 }
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+  padding: 2rem;
+}
+.pricing-table-header {
+  font-size: 30px;
+  margin: 0 0 0 3.5em;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.row.header {
+  font-weight: bold;
+  background: #e0e0e0;
+  gap: 2em;
+}
+
+.row p {
+  flex: 2;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+  color: #555;
+}
+
+.row span {
+  flex: 1;
+  text-align: center;
+  font-weight: 400;
+  color: #333;
+  text-align: left;
+}
+.row.header span:nth-of-type(1) {
+  background-color: #b2eb9a;
+  padding: 7px;
+  border-radius: 10px;
+}
+.row.header span:nth-of-type(2) {
+  background-color: #d9aef4;
+  padding: 7px;
+  border-radius: 10px;
+}
+.row.header span:nth-of-type(3) {
+  background-color: #b8e7f7;
+  padding: 7px;
+  border-radius: 10px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  width: 1.2rem;
+  height: auto;
+  vertical-align: middle;
+}
