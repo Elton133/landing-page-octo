@@ -355,7 +355,7 @@ h4 {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .marketing-item:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 .marketing-text p:nth-of-type(2) {
@@ -735,13 +735,11 @@ hr {
     flex-direction: column;
     margin-top: 1em;
   }
-
   /* Footer adjustments */
   .bottom-links {
     text-align: center;
     margin: 0.5em 0;
   }
-
   .heading {
     font-size: 24px;
     margin: 0;
@@ -749,18 +747,15 @@ hr {
     justify-content: center;
     align-items: center;
   }
-
   .heading {
     font-size: 22px;
     margin: 0;
   }
 }
-
 #responsive-menu {
   border: 1px solid rgb(82, 82, 82);
   padding: 45px;
 }
-
 .pricing-table {
   display: flex;
   justify-content: center;
@@ -780,7 +775,6 @@ hr {
   max-width: 800px;
   width: 100%;
 }
-
 .row {
   display: flex;
   justify-content: space-between;
@@ -788,13 +782,11 @@ hr {
   padding: 1rem;
   border-radius: 8px;
 }
-
 .row.header {
   font-weight: bold;
   background: #e0e0e0;
   gap: 2em;
 }
-
 .row p {
   flex: 2;
   text-align: left;
@@ -802,7 +794,6 @@ hr {
   font-weight: 600;
   color: #555;
 }
-
 .row span {
   flex: 1;
   text-align: center;

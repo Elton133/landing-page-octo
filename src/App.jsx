@@ -49,7 +49,6 @@ function App() {
     <BottomNav/>
     <Copyrights/>
     
-    
   </div>
   )
 }
